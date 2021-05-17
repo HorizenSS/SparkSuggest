@@ -33,6 +33,7 @@ public class SwaggerConfig {
 
 					"To use the client side, start by feeding suggestions to the app for each target." +
 							"You can use the testing data provided as example in the POST request below" +
+							"" +
 							"[\n" +
 							"    {\n" +
 							"        \"target\": \"https://en.wikipedia.org/wiki/The_Matrix\",\n" +
