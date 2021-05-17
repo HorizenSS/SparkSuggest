@@ -9,7 +9,7 @@ var selected_pointer = -1;
 
     function setUp(q, options) {
         // Add the parameters to Rapid Suggest URL
-        // options.url = http://localhost:8080/rapidsuggest?n=20&g=movies,people&q=
+        // options.url = http://localhost:8080/api/rapidsuggest?n=20&g=movies,people&q=
         options.url += "?";
         if (options.number) { options.url += 'n=' + options.number + '&';  }
         if (options.groups) { options.url += 'g=' + encodeURIComponent(options.groups) + '&'; }
@@ -134,7 +134,7 @@ var selected_pointer = -1;
                 }
             };
 
-            var url = location.protocol + '//' + location.host + '/api/rapidsuggest' + '?q=';
+            var url = location.protocol + '//' + location.host + '/rapidsuggest' + '?q=';
             req.open('GET', url + encodeURIComponent(qq.value.trim()), true);
             req.send();
             console.log("Requested autocomplete for '" + qq.value.trim() + "'");
