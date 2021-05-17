@@ -30,8 +30,21 @@ public class SwaggerConfig {
 	
 	ApiInfo apiInfo = new ApiInfo(
 			"Autocomplete Engine RESTful Web Service documentation",
-			"This page documents Rapid Search app RESTful Web Service endpoints. " +
-					"to use the client side, start by feeding suggestions to the app for each target",
+
+					"To use the client side, start by feeding suggestions to the app for each target." +
+							"You can use the testing data provided as example in the POST request below" +
+							"[\n" +
+							"    {\n" +
+							"        \"target\": \"https://en.wikipedia.org/wiki/The_Matrix\",\n" +
+							"        \"suggestion\": \"the matrix 1\",\n" +
+							"        \"group\": \"movies\"\n" +
+							"    },\n" +
+							"    {\n" +
+							"        \"target\": \"https://en.wikipedia.org/wiki/The_Matrix_Reloaded\",\n" +
+							"        \"suggestion\": \"the matrix 2\",\n" +
+							"        \"group\": \"movies\"\n" +
+							"    }\n" +
+							"]",
 			"1.0",
 			"https://github.com/HorizenSS/SparkSuggest",
 			contact, 
