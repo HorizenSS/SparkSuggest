@@ -3,7 +3,7 @@
 <html>
 
     <head>
-        <title>Hi-Tech Gaspar Rapid Suggest!</title>
+        <title>High Performance Suggestion Engine!</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
         <link href="<c:url value="/resources/css/rapidsuggest.css"/>" rel="stylesheet">
     </head>
@@ -26,7 +26,7 @@
                             groups.push('movies');
                             groups.push('people');
                             RapidSuggest(document.getElementById('rapidsuggest'), {
-                                url: location.protocol + '//' + location.host + '/rapidsuggest',
+                                url: location.protocol + '//' + location.host + '/api/rapidsuggest',
                                 number: 20,
                                 groups: groups
                             });
