@@ -29,10 +29,11 @@ public class SwaggerConfig {
     List<VendorExtension> vendorExtensions = new ArrayList<>();
 	
 	ApiInfo apiInfo = new ApiInfo(
-			"Autocomplete Engine RESTful Web Service documentation",
+			"Autocomplete Engine RESTFUL Web Service documentation",
 
-					"To use the client side, start by feeding suggestions to the app for each target." +
-							"You can use the testing data below to perform the POST request in the rest-api-controller\n" +
+					"To use the client side, start by feeding suggestions to the app." +
+							"You can use the testing data below to perform POST request in the rest-api-controller." +
+							"Then head to the client side to test it out!\n" +
 							"" +
 							"[\n" +
 							"    {\n" +
