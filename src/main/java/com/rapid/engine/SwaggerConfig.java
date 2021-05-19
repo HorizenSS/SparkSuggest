@@ -45,6 +45,7 @@ public class SwaggerConfig {
 							"        \"group\": \"movies\"\n" +
 							"    }\n" +
 							"]'" +
+							"\n" +
 
 							"Then head to the client side to test it out!\n" ,
 			"1.0",
