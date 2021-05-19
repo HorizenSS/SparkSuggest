@@ -32,24 +32,12 @@ public class SwaggerConfig {
 			"Autocomplete Engine RESTFUL Web Service documentation",
 
 					"To use the client side, start by feeding suggestions to the app.\n" +
-							"Run the following curl command on https://reqbin.com/curl :\n" +
-							"curl --location --request POST \"https://rapid-search-engine.herokuapp.com/api/post\" ^\n" +
-							"--header \"Content-Type: application/json\" ^\n" +
-							"--data-raw \"[\n" +
-							"    {\n" +
-							"        \\\"target\\\": \\\"https://en.wikipedia.org/wiki/The_Matrix\\\",\n" +
-							"        \\\"suggestion\\\": \\\"the matrix 1\\\",\n" +
-							"        \\\"group\\\": \\\"movies\\\"\n" +
-							"    },\n" +
-							"    {\n" +
-							"        \\\"target\\\": \\\"https://en.wikipedia.org/wiki/The_Matrix_Reloaded\\\",\n" +
-							"        \\\"suggestion\\\": \\\"the matrix 2\\\",\n" +
-							"        \\\"group\\\": \\\"movies\\\"\n" +
-							"    }\n" +
-							"]\"" +
+							"Go to to the following link https://reqbin.com/c-pl24wjkw \n" +
+							"then click on :Run: to make a post requet" +
+
 							"\n" +
 
-							"Then head to the client side to test it out!\n" ,
+							"Finally head to the client side to test it out!\n" ,
 			"1.0",
 			"https://github.com/HorizenSS/SparkSuggest",
 			contact, 
