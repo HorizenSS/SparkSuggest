@@ -32,7 +32,7 @@ public class SwaggerConfig {
 			"Autocomplete Engine RESTFUL Web Service documentation",
 
 					"To use the client side, start by feeding suggestions to the app." +
-							"You can use the testing data below to perform POST request in the rest-api-controller." +
+							"You can use the testing data below to perform POST request using Postman." +
 							"Then head to the client side to test it out!\n" +
 							"" +
 							"[\n" +
