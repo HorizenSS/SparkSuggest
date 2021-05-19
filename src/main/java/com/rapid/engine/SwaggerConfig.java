@@ -33,7 +33,7 @@ public class SwaggerConfig {
 
 					"To use the client side, start by feeding suggestions to the app.\n" +
 							"Go to to the following link https://reqbin.com/c-pl24wjkw \n" +
-							"then click on :Run: to make a post requet" +
+							"then click on :Run: to make a post request" +
 
 							"\n" +
 
